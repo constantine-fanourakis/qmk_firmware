@@ -44,4 +44,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Add extra layers */
 #define DYNAMIC_KEYMAP_LAYER_COUNT 6
 
+#define PERMISSIVE_HOLD
+
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
