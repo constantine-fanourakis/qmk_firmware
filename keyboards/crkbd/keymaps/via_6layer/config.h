@@ -45,5 +45,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DYNAMIC_KEYMAP_LAYER_COUNT 6
 
 #define PERMISSIVE_HOLD
+/* Fix mod tap */
+#define IGNORE_MOD_TAP_INTERRUPT
+#define TAPPING_TERM 200
 
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
